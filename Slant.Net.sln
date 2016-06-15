@@ -7,8 +7,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{29B584F6-0
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B16104F5-F49C-425C-B3AE-BC8D5EC8A3C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Slant.Net.Http", "src\Slant.Net.Http\Slant.Net.Http.csproj", "{220D2ED7-6782-4314-B1A6-8D3CDAB37112}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{220D2ED7-6782-4314-B1A6-8D3CDAB37112}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{220D2ED7-6782-4314-B1A6-8D3CDAB37112}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{220D2ED7-6782-4314-B1A6-8D3CDAB37112}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{220D2ED7-6782-4314-B1A6-8D3CDAB37112}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{220D2ED7-6782-4314-B1A6-8D3CDAB37112} = {B16104F5-F49C-425C-B3AE-BC8D5EC8A3C7}
 	EndGlobalSection
 EndGlobal
